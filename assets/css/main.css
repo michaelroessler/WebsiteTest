@@ -108,7 +108,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #002955 15%, #ffffff 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #002955 15%, #17588E 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #002955 15%, #17588E 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #002955 35%, #ffffff 65%);
+		background-image: url("images/overlay.png"), linear-gradient(0deg, #002955 35%, #FFFFFF 65%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3700,6 +3700,10 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 		/*background-color: #002955;*/
 	}
+		
+		#footer h2 {
+			color: #FFFFFF;
+		}
 
 		#footer > * {
 			width: calc(50% - 2em);
